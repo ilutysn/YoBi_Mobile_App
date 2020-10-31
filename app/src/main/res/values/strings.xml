@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">YoBi_Mobile_App</string>
+    <string name="todo">TODO</string>
 </resources>
