@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "YoBi_Mobile_App"
