@@ -1,5 +1,6 @@
 package com.tugas.yobimobile;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -22,5 +23,9 @@ public class MainActivity extends AppCompatActivity {
     }
     public void register(View view) {
 //        Fungsi untuk mentrigger activity baru
+        Intent intent = new Intent(this, RegisterActivity.class);
+
+        startActivity(intent);
+
     }
 }
