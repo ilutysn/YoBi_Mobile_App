@@ -19,9 +19,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.login_page);
-
-
     }
-
-
+    public void register(View view) {
+//        Fungsi untuk mentrigger activity baru
+    }
 }
