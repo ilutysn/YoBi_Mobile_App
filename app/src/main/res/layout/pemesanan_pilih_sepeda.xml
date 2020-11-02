@@ -7,9 +7,9 @@
     android:layout_height="match_parent">
 
     <ImageView
-        android:id="@+id/imageView6"
+        android:id="@+id/imageView9"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:srcCompat="@drawable/ic_pilih_bank"
-/>
+        app:srcCompat="@drawable/ic_pemesanan_pilih_sepeda" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
