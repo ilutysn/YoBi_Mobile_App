@@ -12,7 +12,9 @@
         android:layout_height="match_parent"
         android:scaleType="centerCrop"
         android:visibility="visible"
-        app:srcCompat="@drawable/ic_login" />
+        app:srcCompat="@drawable/ic_login"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-103dp" />
 
     <EditText
         android:backgroundTint="@color/white"
@@ -28,15 +30,16 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:backgroundTint="@color/white"
         android:id="@+id/editTextTextPassword2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="484dp"
-        android:ems="10"
+        android:layout_marginTop="448dp"
         android:background="@drawable/rounded_corner"
+        android:backgroundTint="@color/white"
+        android:ems="10"
         android:inputType="textPassword"
         app:layout_constraintEnd_toEndOf="@+id/backgroundYobi"
+        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="@+id/backgroundYobi"
         app:layout_constraintTop_toTopOf="@+id/backgroundYobi" />
 
@@ -44,7 +47,7 @@
         android:id="@+id/Login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="572dp"
+        android:layout_marginTop="496dp"
         android:background="@android:color/white"
         android:text="Login"
         android:textColor="@color/black"
@@ -52,6 +55,7 @@
         app:backgroundTint="#FFFFFF"
         app:elevation="4dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="@+id/backgroundYobi"
         app:layout_constraintTop_toTopOf="@+id/backgroundYobi" />
 
