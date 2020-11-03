@@ -12,6 +12,15 @@
         android:layout_height="match_parent"
         app:srcCompat="@drawable/ic_pilih_bank" />
 
+    <ListView
+        android:id="@+id/list_bank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        app:layout_constraintBottom_toTopOf="@+id/background_top_up_bank"></ListView>
+
+
     <Button
         android:id="@+id/konfirmasi_bank"
         android:layout_width="wrap_content"
