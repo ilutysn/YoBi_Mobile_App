@@ -7,10 +7,76 @@
     android:layout_height="match_parent">
 
     <ImageView
-        android:id="@+id/imageView13"
+        android:id="@+id/background_edit_profil"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:srcCompat="@drawable/ic_edit_profil"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="164dp" />
+        app:srcCompat="@drawable/ic_edit_profil" />
+
+    <EditText
+        android:backgroundTint="@color/white"
+        android:id="@+id/editTextName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:background="@drawable/rounded_corner"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/background_edit_profil"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:backgroundTint="@color/white"
+        android:id="@+id/editTextEmailPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="380dp"
+        android:ems="10"
+        android:inputType="textPhonetic"
+        android:background="@drawable/rounded_corner"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/background_edit_profil"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:backgroundTint="@color/white"
+        android:id="@+id/editTextEmailAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="470dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/rounded_corner"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/background_edit_profil"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:backgroundTint="@color/white"
+        android:id="@+id/editTextAlamat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="560dp"
+        android:ems="10"
+        android:inputType="text"
+        android:background="@drawable/rounded_corner"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/background_edit_profil"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/simpan_edit_profil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="610dp"
+        android:background="@android:color/white"
+        android:text="SIMPAN"
+        android:textColor="@color/white"
+
+        app:backgroundTint="@color/black"
+        app:elevation="10px"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/background_edit_profil"
+        app:layout_constraintTop_toTopOf="@+id/background_edit_profil" />
+    
 </androidx.constraintlayout.widget.ConstraintLayout>

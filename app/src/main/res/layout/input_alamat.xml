@@ -64,4 +64,20 @@
         app:layout_constraintStart_toStartOf="@+id/background_alamat"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <Button
+        android:id="@+id/simpan_alamat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="610dp"
+        android:background="@android:color/white"
+        android:text="SIMPAN"
+        android:textColor="@color/white"
+
+        app:backgroundTint="@color/black"
+        app:elevation="10px"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/background_alamat"
+        app:layout_constraintTop_toTopOf="@+id/background_alamat" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
