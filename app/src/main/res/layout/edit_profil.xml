@@ -78,5 +78,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/background_edit_profil"
         app:layout_constraintTop_toTopOf="@+id/background_edit_profil" />
-    
+
 </androidx.constraintlayout.widget.ConstraintLayout>

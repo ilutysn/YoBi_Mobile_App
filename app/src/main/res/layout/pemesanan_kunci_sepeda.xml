@@ -7,9 +7,24 @@
     android:layout_height="match_parent">
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/background_pemesanan_kunci_sepeda"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:srcCompat="@drawable/ic_pemesanan_kunci_sepeda"/>
+
+    <Button
+        android:id="@+id/konfirmasi_bank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="610dp"
+        android:background="@android:color/white"
+        android:text="scan qr code"
+        android:textColor="@color/white"
+
+        app:backgroundTint="@color/black"
+        app:elevation="10px"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/background_pemesanan_kunci_sepeda"
+        app:layout_constraintTop_toTopOf="@+id/background_pemesanan_kunci_sepeda" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

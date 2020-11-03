@@ -7,9 +7,24 @@
     android:layout_height="match_parent">
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/background_pemesanan_selesai"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:srcCompat="@drawable/ic_pemesanan_selesai" />
+
+    <Button
+        android:id="@+id/konfirmasi_bank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="610dp"
+        android:background="@android:color/white"
+        android:text="selesai"
+        android:textColor="@color/white"
+
+        app:backgroundTint="@color/black"
+        app:elevation="10px"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/background_pemesanan_selesai"
+        app:layout_constraintTop_toTopOf="@+id/background_pemesanan_selesai" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
