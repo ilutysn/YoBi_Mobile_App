@@ -12,4 +12,56 @@
         android:layout_height="match_parent"
         app:srcCompat="@drawable/ic_input_alamat" />
 
+    <EditText
+        android:backgroundTint="@color/white"
+        android:id="@+id/editTextJalan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="260dp"
+        android:ems="10"
+        android:inputType="text"
+        android:background="@drawable/rounded_corner"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/background_alamat"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:backgroundTint="@color/white"
+        android:id="@+id/editTextKelurahan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="360dp"
+        android:ems="10"
+        android:inputType="text"
+        android:background="@drawable/rounded_corner"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/background_alamat"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:backgroundTint="@color/white"
+        android:id="@+id/editTextKecamatan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="440dp"
+        android:ems="10"
+        android:inputType="text"
+        android:background="@drawable/rounded_corner"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/background_alamat"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:backgroundTint="@color/white"
+        android:id="@+id/editTextKodePos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="540dp"
+        android:ems="10"
+        android:inputType="textPostalAddress"
+        android:background="@drawable/rounded_corner"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/background_alamat"
+        app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
