@@ -2,14 +2,113 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/linearLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+
 
     <ImageView
         android:id="@+id/background_top_up_saldo"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:srcCompat="@drawable/ic_top_up_saldo" />
+        android:visibility="visible"
+        app:srcCompat="@drawable/ic_top_up_saldo"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="79dp" />
+
+    <Button
+        android:id="@+id/saldo_10k"
+        android:layout_width="104dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/rounded_corner"
+        android:backgroundTint="@color/white"
+
+        android:text="Rp 10.000"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        app:backgroundTint="@color/black"
+        app:elevation="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.244"
+        app:layout_constraintStart_toStartOf="@+id/background_top_up_saldo"
+        app:layout_constraintTop_toTopOf="@+id/background_top_up_saldo" />
+
+    <Button
+        android:id="@+id/saldo_20k"
+        android:layout_width="104dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/rounded_corner"
+        android:backgroundTint="@color/white"
+
+        android:text="Rp 20.000"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        app:backgroundTint="@color/black"
+        app:elevation="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.778"
+        app:layout_constraintStart_toStartOf="@+id/background_top_up_saldo"
+        app:layout_constraintTop_toTopOf="@+id/background_top_up_saldo" />
+
+    <Button
+        android:id="@+id/saldo_50k"
+        android:layout_width="104dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="376dp"
+        android:background="@drawable/rounded_corner"
+        android:backgroundTint="@color/white"
+
+        android:text="Rp 50.000"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        app:backgroundTint="@color/black"
+        app:elevation="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.244"
+        app:layout_constraintStart_toStartOf="@+id/background_top_up_saldo"
+        app:layout_constraintTop_toTopOf="@+id/background_top_up_saldo" />
+
+    <Button
+        android:id="@+id/saldo_100k"
+        android:layout_width="104dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="376dp"
+        android:background="@drawable/rounded_corner"
+        android:backgroundTint="@color/white"
+
+        android:text="Rp 100.000"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        app:backgroundTint="@color/black"
+        app:elevation="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.778"
+        app:layout_constraintStart_toStartOf="@+id/background_top_up_saldo"
+        app:layout_constraintTop_toTopOf="@+id/background_top_up_saldo" />
+
+
+    <Button
+        android:id="@+id/pilih_metode_pembayaran"
+        android:layout_width="327dp"
+        android:layout_height="81dp"
+        android:backgroundTint="#E79B9B"
+        android:text="Pilih Metode Pembayaran"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="521dp" />
+
+    <ImageView
+        android:id="@+id/saldo_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rotation="180"
+        app:srcCompat="@drawable/ic_back"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="331dp"
+        tools:layout_editor_absoluteY="521dp" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

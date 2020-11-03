@@ -13,8 +13,7 @@
         android:scaleType="centerCrop"
         android:visibility="visible"
         app:srcCompat="@drawable/ic_login"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="-101dp" />
+ />
 
     <EditText
         android:id="@+id/input_email"

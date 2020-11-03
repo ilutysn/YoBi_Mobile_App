@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="background_top_up_saldo" type="id" />
+    <item name="saldo_10k" type="id" />
+    <item name="saldo_20k" type="id" />
+    <item name="saldo_50k" type="id" />
+    <item name="saldo_100k" type="id" />
+    <item name="pilih_metode_pembayaran" type="id" />
+    <item name="saldo_back" type="id" />
+</resources>
