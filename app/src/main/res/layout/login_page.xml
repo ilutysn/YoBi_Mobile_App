@@ -17,22 +17,23 @@
         tools:layout_editor_absoluteY="-101dp" />
 
     <EditText
-        android:backgroundTint="@color/white"
         android:id="@+id/input_email"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="412dp"
+        android:layout_width="240dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="368dp"
+        android:background="@drawable/rounded_corner"
+        android:backgroundTint="@color/white"
         android:ems="10"
         android:inputType="textEmailAddress"
-        android:background="@drawable/rounded_corner"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
         app:layout_constraintStart_toStartOf="@+id/backgroundYobi"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/input_password"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="241dp"
+        android:layout_height="49dp"
         android:layout_marginTop="448dp"
         android:background="@drawable/rounded_corner"
         android:backgroundTint="@color/white"
@@ -43,11 +44,12 @@
         app:layout_constraintStart_toStartOf="@+id/backgroundYobi"
         app:layout_constraintTop_toTopOf="@+id/backgroundYobi" />
 
+
     <Button
         android:id="@+id/Login"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="496dp"
+        android:layout_width="104dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="532dp"
 
         android:background="@drawable/rounded_corner"
         android:backgroundTint="@color/black"
@@ -61,7 +63,6 @@
         app:layout_constraintStart_toStartOf="@+id/backgroundYobi"
         app:layout_constraintTop_toTopOf="@+id/backgroundYobi" />
 
-
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -70,23 +71,27 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Login">
 
-        <TextView
-            android:id="@+id/akun"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-
-            android:text="Belum memiliki akun? " />
-
-        <TextView
-            android:id="@+id/register_link"
-            android:textColor="@color/black"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:onClick="register"
-            android:text="Daftar disini" />
-
 
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/register_link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="register"
+        android:text="Daftar disini"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="238dp"
+        tools:layout_editor_absoluteY="614dp" />
+
+    <TextView
+        android:id="@+id/akun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Belum memiliki akun? "
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="614dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
