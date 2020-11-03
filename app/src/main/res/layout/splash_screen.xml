@@ -19,13 +19,22 @@
 
     <ImageView
         android:id="@+id/splash_logo"
-        android:layout_width="225dp"
-        android:layout_height="249dp"
+        android:layout_width="280dp"
+        android:layout_height="261dp"
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@mipmap/ic_icon_yobi_foreground" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="54dp"
+        android:layout_height="52dp"
+        android:rotation="25"
+        app:srcCompat="@mipmap/ic_stars_foreground"
+        tools:layout_editor_absoluteX="279dp"
+        tools:layout_editor_absoluteY="355dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
