@@ -48,11 +48,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="496dp"
-        android:background="@android:color/white"
-        android:text="Login"
-        android:textColor="@color/black"
 
-        app:backgroundTint="#FFFFFF"
+        android:background="@drawable/rounded_corner"
+        android:backgroundTint="@color/black"
+
+        android:text="Login"
+        android:textColor="@color/white"
+        app:backgroundTint="@color/black"
         app:elevation="4dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
