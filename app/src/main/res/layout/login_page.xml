@@ -13,19 +13,25 @@
         android:scaleType="centerCrop"
         android:visibility="visible"
         app:srcCompat="@drawable/ic_login"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="-103dp" />
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="0dp" />
+
 
     <EditText
-        android:backgroundTint="@color/white"
         android:id="@+id/input_email"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="412dp"
+        android:layout_marginTop="384dp"
+        android:background="@drawable/rounded_corner"
+        android:backgroundTint="@color/white"
         android:ems="10"
         android:inputType="textEmailAddress"
-        android:background="@drawable/rounded_corner"
+        android:paddingTop="8sp"
+        android:paddingEnd="8sp"
+        android:textColor="@color/black"
+        android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="@+id/backgroundYobi"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -33,25 +39,29 @@
         android:id="@+id/input_password"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="448dp"
+        android:layout_marginTop="456dp"
         android:background="@drawable/rounded_corner"
         android:backgroundTint="@color/white"
         android:ems="10"
         android:inputType="textPassword"
+        android:paddingTop="8sp"
+        android:paddingEnd="8sp"
+        android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="@+id/backgroundYobi"
-        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="@+id/backgroundYobi"
         app:layout_constraintTop_toTopOf="@+id/backgroundYobi" />
+
 
     <Button
         android:id="@+id/Login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="496dp"
+        android:layout_marginTop="540dp"
         android:background="@drawable/rounded_corner"
         android:backgroundTint="@color/black"
-        android:text="Login"
         android:onClick="do_login"
+        android:text="Login"
         android:textColor="@color/white"
         app:backgroundTint="@color/black"
         app:elevation="4dp"
@@ -59,7 +69,6 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="@+id/backgroundYobi"
         app:layout_constraintTop_toTopOf="@+id/backgroundYobi" />
-
 
     <LinearLayout
         android:layout_width="wrap_content"
