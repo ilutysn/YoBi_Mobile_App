@@ -14,7 +14,7 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 
-public class MainActivity extends AppCompatActivity {
+public class LoginActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,7 +24,6 @@ public class MainActivity extends AppCompatActivity {
     public void register(View view) {
 //        Fungsi untuk mentrigger activity baru
         Intent intent = new Intent(this, RegisterActivity.class);
-
         startActivity(intent);
 
     }
