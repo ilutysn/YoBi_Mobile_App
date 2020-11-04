@@ -18,7 +18,7 @@
 
     <EditText
         android:backgroundTint="@color/white"
-        android:id="@+id/editTextTextEmailAddress2"
+        android:id="@+id/input_email"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="412dp"
@@ -30,7 +30,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextPassword2"
+        android:id="@+id/input_password"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="448dp"
@@ -48,11 +48,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="496dp"
-
         android:background="@drawable/rounded_corner"
         android:backgroundTint="@color/black"
-
         android:text="Login"
+        android:onClick="do_login"
         android:textColor="@color/white"
         app:backgroundTint="@color/black"
         app:elevation="4dp"
