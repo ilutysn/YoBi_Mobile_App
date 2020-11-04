@@ -12,14 +12,4 @@
         android:layout_height="match_parent"
         app:srcCompat="@drawable/ic_beranda" />
 
-    <TextView
-        android:id="@+id/lihat_lebih_banyak"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="lihat lebih banyak"
-        android:textColor="@color/purple_200"
-        tools:layout_editor_absoluteX="256dp"
-        tools:layout_editor_absoluteY="464dp" />
-
-
 </androidx.constraintlayout.widget.ConstraintLayout>

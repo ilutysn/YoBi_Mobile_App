@@ -12,12 +12,4 @@
         android:layout_height="match_parent"
         app:srcCompat="@drawable/ic_bintangku"/>
 
-    <com.google.android.material.textfield.TextInputEditText
-        android:layout_width="245dp"
-        android:layout_height="90dp"
-        android:hint="Masukkan ulasan Anda"
-        tools:layout_editor_absoluteX="90dp"
-        tools:layout_editor_absoluteY="465dp" />
-
-
 </androidx.constraintlayout.widget.ConstraintLayout>
