@@ -84,11 +84,12 @@
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="27dp"
-        android:layout_height="27dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginStart="19dp"
         android:layout_marginTop="27dp"
         android:layout_marginEnd="365dp"
+        android:onClick="back_home"
         app:layout_constraintEnd_toEndOf="@+id/background_register"
         app:layout_constraintStart_toStartOf="@+id/background_register"
         app:layout_constraintTop_toTopOf="@+id/background_register"
