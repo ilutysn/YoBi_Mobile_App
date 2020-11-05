@@ -19,14 +19,23 @@
 
     <ImageView
         android:id="@+id/splash_logo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="280dp"
+        android:layout_height="261dp"
+        android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:visibility="invisible"
-        app:srcCompat="@mipmap/ic_icon_yobi_foreground"
-        />
+        app:srcCompat="@mipmap/ic_icon_yobi_foreground" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="54dp"
+        android:layout_height="52dp"
+        android:rotation="25"
+        app:layout_constraintBottom_toBottomOf="@+id/splash_logo"
+        app:layout_constraintEnd_toEndOf="@+id/splash_logo"
+        app:layout_constraintTop_toTopOf="@+id/splash_logo"
+        app:srcCompat="@mipmap/ic_stars_foreground" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

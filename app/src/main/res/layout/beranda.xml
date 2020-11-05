@@ -7,9 +7,119 @@
     android:layout_height="match_parent">
 
     <ImageView
-        android:id="@+id/imageView12"
+        android:id="@+id/background_beranda"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:srcCompat="@drawable/ic_beranda" />
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/ic_beranda"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-171dp" />
+
+    <TextView
+        android:id="@+id/lihat_lebih_banyak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="lihat lebih banyak"
+        android:textColor="@color/purple_200"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView12"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.887"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView35"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/imageView34"
+        android:layout_width="160dp"
+        android:layout_height="136dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView34"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/background_beranda"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@mipmap/ic_iconyobi_foreground" />
+
+    <ImageView
+        android:id="@+id/imageView35"
+        android:layout_width="560dp"
+        android:layout_height="321dp"
+        app:layout_constraintBottom_toBottomOf="@+id/background_beranda"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView12"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@mipmap/ic_beranda_sepeda_foreground" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="Hai Fahriza"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/background_beranda"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="@+id/background_beranda"
+        app:layout_constraintTop_toTopOf="@+id/background_beranda" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rp 20.000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/Login"
+        app:layout_constraintHorizontal_bias="0.11"
+        app:layout_constraintStart_toEndOf="@+id/imageView38"
+        app:layout_constraintTop_toTopOf="@+id/background_beranda"
+        app:layout_constraintVertical_bias="0.3" />
+
+    <Button
+        android:id="@+id/Login"
+        android:layout_width="75dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="204dp"
+
+        android:background="@drawable/rounded_corner"
+        android:backgroundTint="@color/black"
+
+        android:text="Top up"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="13sp"
+        app:backgroundTint="@color/black"
+        app:elevation="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.842"
+        app:layout_constraintStart_toStartOf="@+id/background_beranda"
+        app:layout_constraintTop_toTopOf="@+id/background_beranda" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="404dp"
+        android:layout_height="202dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/background_beranda"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="@+id/background_beranda"
+        app:layout_constraintTop_toTopOf="@+id/background_beranda"
+        app:layout_constraintVertical_bias="0.474"
+        app:srcCompat="@mipmap/ic_beranda_bank_foreground" />
+
+    <ImageView
+        android:id="@+id/imageView38"
+        android:layout_width="63dp"
+        android:layout_height="54dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/Login"
+        app:layout_constraintHorizontal_bias="0.159"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.29"
+        app:srcCompat="@mipmap/ic_beranda_wallet_foreground" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
