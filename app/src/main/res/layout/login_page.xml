@@ -22,12 +22,13 @@
         android:id="@+id/yellow"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginTop="208dp"
         android:scaleType="fitXY"
         android:visibility="visible"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ic_yellowrect" />
+        app:srcCompat="@drawable/ic_rectangle_yellow" />
 
     <ImageView
         android:id="@+id/pinkcircle"
@@ -46,7 +47,7 @@
         android:id="@+id/input_email"
         android:layout_width="309dp"
         android:layout_height="50dp"
-        android:layout_marginBottom="36dp"
+        android:layout_marginBottom="32dp"
         android:background="@drawable/rounded_corner"
         android:backgroundTint="@color/white"
         android:ems="10"
@@ -64,7 +65,7 @@
         android:id="@+id/input_password"
         android:layout_width="305dp"
         android:layout_height="50dp"
-        android:layout_marginBottom="36dp"
+        android:layout_marginBottom="32dp"
         android:background="@drawable/rounded_corner"
         android:backgroundTint="@color/white"
         android:ems="10"
@@ -84,7 +85,7 @@
         android:layout_width="104dp"
         android:layout_height="56dp"
 
-        android:layout_marginBottom="36dp"
+        android:layout_marginBottom="32dp"
         android:background="@drawable/rounded_corner"
 
         android:backgroundTint="@color/black"
@@ -127,7 +128,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
 
-        android:layout_marginBottom="36dp"
+        android:layout_marginBottom="32dp"
         android:text="Belum memiliki akun? "
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="@+id/input_password" />
@@ -136,7 +137,7 @@
         android:id="@+id/imageView25"
         android:layout_width="260dp"
         android:layout_height="208dp"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="120dp"
         app:layout_constraintEnd_toEndOf="@+id/backgroundYobi"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
@@ -161,12 +162,43 @@
         android:layout_height="73dp"
         android:layout_marginStart="43dp"
         android:layout_marginEnd="248dp"
-        android:layout_marginBottom="24dp"
+        android:layout_marginBottom="20dp"
         app:layout_constraintBottom_toTopOf="@+id/Login"
         app:layout_constraintEnd_toEndOf="@+id/input_password"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/backgroundYobi"
         app:srcCompat="@mipmap/ic_icon_password_foreground" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="58dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="@+id/backgroundYobi"
+        app:layout_constraintTop_toTopOf="@+id/yellow"
+        app:srcCompat="@drawable/ic_ellipse_10" />
+
+    <TextView
+        android:id="@+id/loginText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:text="Login"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:typeface="sans"
+        app:layout_constraintStart_toStartOf="@+id/imageView3"
+        app:layout_constraintTop_toTopOf="@+id/imageView3" />
+
+    <TextView
+        android:id="@+id/silahkanmasuk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Silahkan masuk untuk melanjutkan"
+        app:layout_constraintStart_toStartOf="@+id/loginText"
+        app:layout_constraintTop_toBottomOf="@+id/loginText" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
