@@ -1,4 +1,4 @@
-package com.tugas.yobimobile;
+package com.tugas.yobimobile.database;
 
 import android.provider.BaseColumns;
 
