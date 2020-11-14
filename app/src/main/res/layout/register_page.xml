@@ -18,7 +18,7 @@
         app:srcCompat="@drawable/ic_daftar" />
 
     <EditText
-        android:id="@+id/editTextPhone"
+        android:id="@+id/email_field"
         android:layout_width="wrap_content"
         android:layout_height="50dp"
         android:layout_marginTop="268dp"
@@ -34,7 +34,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextNama"
+        android:id="@+id/name_field"
         android:layout_width="wrap_content"
         android:layout_height="50dp"
         android:layout_marginTop="42dp"
@@ -47,10 +47,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="@+id/background_register"
-        app:layout_constraintTop_toBottomOf="@+id/editTextPhone" />
+        app:layout_constraintTop_toBottomOf="@+id/email_field" />
 
     <EditText
-        android:id="@+id/editTextPassword"
+        android:id="@+id/password_field"
         android:layout_width="wrap_content"
         android:layout_height="50dp"
         android:layout_marginTop="42dp"
@@ -63,7 +63,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.505"
         app:layout_constraintStart_toStartOf="@+id/background_register"
-        app:layout_constraintTop_toBottomOf="@+id/editTextNama" />
+        app:layout_constraintTop_toBottomOf="@+id/name_field" />
 
     <Button
         android:id="@+id/simpan_alamat"
@@ -71,6 +71,7 @@
         android:layout_height="63dp"
         android:layout_marginTop="42dp"
         android:background="@android:color/white"
+        android:onClick="do_register"
         android:text="Daftar"
 
         android:textAllCaps="false"
@@ -80,7 +81,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="@+id/background_register"
-        app:layout_constraintTop_toBottomOf="@+id/editTextPassword" />
+        app:layout_constraintTop_toBottomOf="@+id/password_field" />
 
     <ImageView
         android:id="@+id/imageView4"
