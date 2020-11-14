@@ -14,15 +14,5 @@ public final class UserResgisterContract {
 
     }
 
-    private static final String SQL_CREATE_ENTRIES =
-            "CREATE TABLE " + UserEntry.TABLE_NAME + " (" +
-                    UserEntry._ID + " INTEGER PRIMARY KEY," +
-                    UserEntry.COLUMN_NAME_NAMA + " TEXT," +
-                    UserEntry.COLUMN_NAME_EMAIL + " TEXT," +
-                    UserEntry.COLUMN_NAME_PASSWORD + " TEXT)";
-
-    private static final String SQL_DELETE_ENTRIES =
-            "DROP TABLE IF EXISTS " + UserEntry.TABLE_NAME;
-
 
 }
